@@ -73,4 +73,6 @@ email: ''
 highlight_name: false
 ---
 
-I'm a quantitative social scientist and work as a Research Software Engineer at the Netherlands eScience Center.
+I am a Research Software Engineer at the Netherlands eScience Center and work on projects in the social sciences and NLP.
+
+As an economist I have used causal research designs, machine learning and numerical optimization to answer research questions about the labor market. I also designed and maintained relational databases for this purpose.

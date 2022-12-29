@@ -118,7 +118,7 @@ sections:
     content:
       title: Code
       text: |2-
-        Here are some example repositories that I built for bibliometric research on the careers for PhD graduates in the United States.
+        Here are some repositories that I maintain for bibliometric research on the careers for PhD graduates in the United States.
 
         **[mag_sample (proper name coming soon)](https://github.com/f-hafner/mag_sample)**
         - Load and clean Microsoft Academic Graph
@@ -134,12 +134,12 @@ sections:
       title: Teaching
       text: |2-
         **Digital skills workshops at the eScience Center (2023)**
-        - Content: parallel python, deep learning, geographic data 
+        - Courses in parallel python, deep learning, geographic data 
         - Role: helper
 
         **Labor economics II, Aalto University (2021, 2022)**
-        - Role: Main instructor
         - Content: Syllabus link
+        - Role: Main instructor
   - block: contact
     id: contact
     content:
