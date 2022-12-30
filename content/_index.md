@@ -34,7 +34,7 @@ sections:
           description: |2-
               Contributing to software projects:
 
-              * Entity Linking: REL
+              * REL entity linker
         - title: Postdoctoral Fellow
           company: Aalto University
           company_url: ''
@@ -43,10 +43,8 @@ sections:
           date_start: '2020-09-01'
           date_end: '2022-10-31'
           description: |2-
-            Labor economics
-
               * Data warehousing, data integration, entity disambiguation
-              * Statistical modelling & causal inference
+              * Statistical modeling & causal inference
               * Design & teach graduate course in labor economics
         - title: PhD Candidate
           company: Universitat Pompeu Fabra
@@ -56,7 +54,7 @@ sections:
           description: |2-
             Labor economics
 
-              * Statistical modelling & causal inference
+              * Statistical modeling & causal inference
               * Numerical optimization
     design:
       columns: '2'
@@ -134,7 +132,7 @@ sections:
       title: Teaching
       text: |2-
         **Digital skills workshops at the eScience Center (2023)**
-        - Courses in parallel python, deep learning, geographic data 
+        - Courses: parallel python, introduction to deep learning, geospatial data
         - Role: helper
 
         **Labor economics II, Aalto University (2021, 2022)**

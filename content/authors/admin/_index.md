@@ -14,7 +14,7 @@ last_name: Hafner
 superuser: true
 
 # Role/position/tagline
-role: Research Software Engineer
+role: Research Software Engineer | Economist
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -22,12 +22,14 @@ organizations:
     url: https://www.esciencecenter.nl/
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: ""
 
 # Interests to show in About widget
-interests:
-  - blah 
-  - blah 
+interests: ""
+    # - Data processing
+    # - Machine Learning
+    # - Natural Language Processing
+    # - Economics
 
 # Education to show in About widget
 education:
@@ -35,12 +37,12 @@ education:
     - course: PhD Economics
       institution: Universitat Pompeu Fabra
       year: 2020
-    - course: MRes Economics
-      institution: Universitat Pompeu Fabra
-      year: 2014
-    - course: MSc Economics
-      institution: Universitat Pompeu Fabra
-      year: 2013
+    # - course: MRes Economics
+    #   institution: Universitat Pompeu Fabra
+    #   year: 2014
+    # - course: MSc Economics
+    #   institution: Universitat Pompeu Fabra
+    #   year: 2013
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -75,4 +77,4 @@ highlight_name: false
 
 I am a Research Software Engineer at the Netherlands eScience Center and work on projects in the social sciences and NLP.
 
-As an economist I have used causal research designs, machine learning and numerical optimization to answer research questions about the labor market. I also designed and maintained relational databases for this purpose.
+As an economist I designed relational databases and used causal research designs, machine learning and numerical optimization to answer research questions about the labor market.
