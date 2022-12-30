@@ -46,7 +46,7 @@ sections:
               * Data warehousing, data integration, entity disambiguation
               * Statistical modeling & causal inference
               * Design & teach graduate course in labor economics
-        - title: PhD Candidate
+        - title: PhD in Economics
           company: Universitat Pompeu Fabra
           location: Barcelona
           date_start: '2014-09-01'
@@ -136,7 +136,7 @@ sections:
         - Role: helper
 
         **Labor economics II, Aalto University (2021, 2022)**
-        - Content: Syllabus link
+        - [Syllabus](uploads/labor2-syllabus.pdf)
         - Role: Main instructor
   - block: contact
     id: contact
