@@ -34,9 +34,9 @@ sections:
           description: |2-
               Contributing to software and research:
 
-              * REL entity linker LINK TO RSD
-              * Privacy-preserving synthetic data and machine learning LINK TO RSD
-              * Careers of PhD graduates LINK TO RSD
+              * REL -- Radboud entity linker. [Project](https://research-software-directory.org/projects/rel20).
+              * Privacy-preserving synthetic data and machine learning. [Project](https://research-software-directory.org/projects/gans).
+              * Labor market careers of PhD graduates. [Project](https://research-software-directory.org/projects/from-the-ivory-tower-to-public-or-private-power).
         - title: Postdoctoral Fellow
           company: Aalto University
           company_url: ''
@@ -119,7 +119,7 @@ sections:
       title: Code
       text: |2-
         **[sirup: Simple IP rotation with python](https://github.com/ivory-tower-private-power/sirup)**
-        - A wrapper around the openvpn CLI to connect to VPN servers and rotate the IP address in python programs.
+        - A wrapper around the `openvpn` command line interface to connect to VPN servers and rotate the IP address in python programs.
 
         I also maintain the following repositories for bibliometric research on the careers for PhD graduates in the United States:
 
