@@ -32,9 +32,11 @@ sections:
           date_start: '2022-11-15'
           date_end: ''
           description: |2-
-              Contributing to software projects:
+              Contributing to software and research:
 
-              * REL entity linker
+              * REL entity linker LINK TO RSD
+              * Privacy-preserving synthetic data and machine learning LINK TO RSD
+              * Careers of PhD graduates LINK TO RSD
         - title: Postdoctoral Fellow
           company: Aalto University
           company_url: ''
@@ -116,7 +118,10 @@ sections:
     content:
       title: Code
       text: |2-
-        Here are some repositories that I maintain for bibliometric research on the careers for PhD graduates in the United States.
+        **[sirup: Simple IP rotation with python](https://github.com/ivory-tower-private-power/sirup)**
+        - A wrapper around the openvpn CLI to connect to VPN servers and rotate the IP address in python programs.
+
+        I also maintain the following repositories for bibliometric research on the careers for PhD graduates in the United States:
 
         **[mag_sample (proper name coming soon)](https://github.com/f-hafner/mag_sample)**
         - Load and clean Microsoft Academic Graph
@@ -131,9 +136,11 @@ sections:
     content:
       title: Teaching
       text: |2-
+        **Carpentries instructor certification (2023)**
+
         **Digital skills workshops at the eScience Center (2023)**
-        - Courses: parallel python, introduction to deep learning, geospatial data
-        - Role: helper
+        - *Machine learning in Python with scikit-learn* (role: supporting instructor)
+        - *Parallel Python*, *Introduction to deep learning*, *R packaging*, *Intermediate Research Software Development with Python* (role: helper)
 
         **Labor economics II, Aalto University (2021, 2022)**
         - [Syllabus](uploads/labor2-syllabus.pdf)
