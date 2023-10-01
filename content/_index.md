@@ -116,7 +116,7 @@ sections:
   - block: markdown
     id: software
     content:
-      title: Code & Software
+      title: Software & Code
       text: |2-
         ### Packages
 
@@ -125,8 +125,8 @@ sections:
         - A wrapper around the `openvpn` command line interface to connect to VPN servers and rotate the IP address in python programs.
 
         ### Repositories
-        
-        **[mag_sample](https://github.com/f-hafner/mag_sample)** (proper name in progress)
+
+        **[mag_sample](https://github.com/f-hafner/mag_sample)** 
         - Load and clean Microsoft Academic Graph
         - Create additional tables and integrate different data sources
         - Use active learning to link records in MAG to other data sources

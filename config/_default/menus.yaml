@@ -10,7 +10,7 @@ main:
   - name: Research
     url: '#research'
     weight: 20
-  - name: Code & Software
+  - name: Software & Code
     url: '#software'
     weight: 30
   - name: Teaching
