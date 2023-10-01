@@ -75,4 +75,7 @@ email: ''
 highlight_name: false
 ---
 
-I am a Research Software Engineer at the Netherlands eScience Center. I build and apply software for statistics, machine learning, NLP and information retrieval. 
+I am a Research Software Engineer at the Netherlands eScience Center. 
+
+I am interested in machine learning (in particular privacy protection and applications for labor market research), information retrieval and NLP. I am also exploring cross-disciplinary approaches bridging various fields.
+<!-- I also strive for cross-disciplinary approaches across various disciplines. -->
