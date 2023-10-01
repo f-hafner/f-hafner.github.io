@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2023-09-30
 type: landing
 
 sections:
@@ -26,7 +26,7 @@ sections:
       items:
         - title: Research Software Engineer
           company: Netherlands eScience Center
-          company_url: ''
+          company_url: 'https://www.esciencecenter.nl/'
           # company_logo: org-gc
           location: Amsterdam
           date_start: '2022-11-15'
@@ -114,16 +114,19 @@ sections:
       columns: '2'
       view: citation
   - block: markdown
-    id: code
+    id: software
     content:
-      title: Code
+      title: Code & Software
       text: |2-
-        **[sirup: Simple IP rotation with python](https://github.com/ivory-tower-private-power/sirup)**
+        ### Packages
+
+        **[sirup: Simple IP rotation using python](https://github.com/ivory-tower-private-power/sirup)**
+        
         - A wrapper around the `openvpn` command line interface to connect to VPN servers and rotate the IP address in python programs.
 
-        I also maintain the following repositories for bibliometric research on the careers for PhD graduates in the United States:
-
-        **[mag_sample (proper name coming soon)](https://github.com/f-hafner/mag_sample)**
+        ### Repositories
+        
+        **[mag_sample](https://github.com/f-hafner/mag_sample)** (proper name in progress)
         - Load and clean Microsoft Academic Graph
         - Create additional tables and integrate different data sources
         - Use active learning to link records in MAG to other data sources

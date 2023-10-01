@@ -14,7 +14,7 @@ last_name: Hafner
 superuser: true
 
 # Role/position/tagline
-role: Research Software Engineer | Economist
+role: Research Software Engineer | PhD Economist
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -75,6 +75,4 @@ email: ''
 highlight_name: false
 ---
 
-I am a Research Software Engineer at the Netherlands eScience Center and work on projects in the social sciences and NLP.
-
-As an economist I designed relational databases and used causal research designs, machine learning and numerical optimization to answer research questions about the labor market.
+I am a Research Software Engineer at the Netherlands eScience Center. I build and apply software for statistics, machine learning, NLP and information retrieval. 
