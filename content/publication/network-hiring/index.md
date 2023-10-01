@@ -36,11 +36,11 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: Online Appendix
+  url: uploads/papers/network-hiring-appendix.pdf
 
-url_pdf: ''
+url_pdf: 'uploads/papers/network-hiring.pdf'
 # url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 url_poster: ''
