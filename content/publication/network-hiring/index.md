@@ -45,7 +45,7 @@ url_pdf: 'uploads/papers/network-hiring.pdf'
 # url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'https://doi.org/10.5281/zenodo.10071496'
 # url_source: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_video: 'https://youtube.com'
 
