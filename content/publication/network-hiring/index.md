@@ -9,7 +9,7 @@ authors:
   - Christoph Hedtrich
 
 
-date: '2023-09-30T00:00:00Z'
+date: '2023-12-06'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -24,7 +24,8 @@ publication_types: ['3']
 # Publication name and optional abbreviated publication name.
 # publication: In *Wowchemy Conference*
 
-abstract: "We study the role of networks in the labor market for young scientists in the United States. Nearly one in five PhD graduates that publish after PhD graduation do so at a university where their advisor has a former co-author; graduates that have such a connection are more than twice as likely to match with the university, even within fine-grained peer groups. We document a citation premium of 12 to 36% for graduates placed through the advisor’s network. However, we find no evidence for private information about productivity being revealed through the network.
+abstract: "We study the role of collaboration networks in the labor market for young scientists in the United States.  
+  Nearly one in five PhD graduates publish after graduation at universities where their advisor has a co-author; such pre-existing connections more than double the probability of matching with the university---even within fine-grained peer groups. The importance of the advisor’s network for placement doubled from 1990 to 2014. For graduates placed via the advisor's network, we document a citation premium of 9 to 30 percent but find no evidence of private information being revealed.
 "
 
 # Summary. An optional shortened abstract.
