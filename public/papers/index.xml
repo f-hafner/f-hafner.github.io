@@ -2,26 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Papers on Prof. Name</title>
-    <link>https://pascalmichaillat.org/hugo-website/papers/</link>
+    <link>http://localhost:1313/hugo-website/papers/</link>
     <description>Recent content in Papers on Prof. Name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalmichaillat.org/hugo-website/papers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/hugo-website/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Empirically testing privacy in machine learning </title>
+      <link>http://localhost:1313/hugo-website/privacy-testing/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-website/privacy-testing/</guid>
+      <description>We review the empirical testing of privacy in machine learning, focusing on the intuitions for and assumptions behind such tests. We then discuss whether and how these tests could be used when evaluating generative algorithms for deployment at statistical agencies and in the health care system. </description>
+    </item>
+    
     <item>
       <title>Paper Title 2</title>
-      <link>https://pascalmichaillat.org/hugo-website/papers/paper2/</link>
+      <link>http://localhost:1313/hugo-website/papers/paper2/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/papers/paper2/</guid>
+      <guid>http://localhost:1313/hugo-website/papers/paper2/</guid>
       <description>This paper shows other things. Published in Journal Name, 2015.</description>
     </item>
     
     <item>
       <title>Paper Title 1</title>
-      <link>https://pascalmichaillat.org/hugo-website/papers/paper1/</link>
+      <link>http://localhost:1313/hugo-website/papers/paper1/</link>
       <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/papers/paper1/</guid>
+      <guid>http://localhost:1313/hugo-website/papers/paper1/</guid>
       <description>This paper shows things. Published in Journal Name, 2012.</description>
     </item>
     
