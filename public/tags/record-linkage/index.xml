@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Record Linkage on Prof. Name</title>
-    <link>http://localhost:45819/hugo-website/tags/record-linkage/</link>
-    <description>Recent content in Record Linkage on Prof. Name</description>
+    <title>Record Linkage on Flavio Hafner</title>
+    <link>http://localhost:45359/tags/record-linkage/</link>
+    <description>Recent content in Record Linkage on Flavio Hafner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:45819/hugo-website/tags/record-linkage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:45359/tags/record-linkage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Networks in the market for researchers</title>
-      <link>http://localhost:45819/hugo-website/network-hiring/</link>
+      <link>http://localhost:45359/network-hiring/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:45819/hugo-website/network-hiring/</guid>
+      <guid>http://localhost:45359/network-hiring/</guid>
       <description>We study the role of collaboration networks for placing PhD students in the U.S. We find a substantial and rising role for network hiring. For graduates placed via the advisor&amp;#39;s network, we document a citation premium of 9 to 30 percent but find no evidence of private information being revealed. </description>
     </item>
     

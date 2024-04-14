@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Prof. Name
+baseURL: "https://f-hafner.github.io" 
+title: Flavio Hafner
 paginate: 20
 theme: PaperMod
 
@@ -25,8 +25,7 @@ menu:
           weight: 4
 
 params:
-    description: "I am a Professor of Subject at the University of Place. My research covers various topics.
-consequat."
+    description: "I am a Research Software Engineer at the Netherlands eScience Center. "
     author: Name
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -50,12 +49,12 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Prof. Namely Name
-          subtitle: "I am a Professor of Subject at the University of Place. I work on various topics. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          imageTitle: Prof. Name
+          title: Flavio Hafner
+          subtitle: "I am a Research Software Engineer at the Netherlands eScience Center. I am interested in machine learning (in particular privacy protection and applications for labor market research), information retrieval and NLP. I am also exploring cross-disciplinary approaches bridging various fields."
+          # imageUrl: "avatar.jpg"
+          # imageWidth: 125
+          # imageHeight: 180
+          # imageTitle: picture
           buttons:
             - name: Papers
               url: papers/
@@ -96,7 +95,7 @@ consequat."
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Prof. Name"
+      text: "Flavio Hafner"
       icon: favicon.ico
       iconHeight: 18
 

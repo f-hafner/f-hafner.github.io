@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Commuting on Flavio Hafner</title>
+    <link>http://localhost:45359/tags/commuting/</link>
+    <description>Recent content in Commuting on Flavio Hafner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:45359/tags/commuting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Equilibrium Effects of Workers’ Outside Employment Options: Evidence from a Labor Market Integration</title>
+      <link>http://localhost:45359/paper/</link>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:45359/paper/</guid>
+      <description>We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results indicate that the reform increased the value of local job search, drawing more workers into the labor force and lowering labor market tightness.</description>
+    </item>
+    
+  </channel>
+</rss>
