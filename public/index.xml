@@ -2,71 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Flavio Hafner</title>
-    <link>http://localhost:40377/</link>
+    <link>http://localhost:42435/</link>
     <description>Recent content on Flavio Hafner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:40377/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:42435/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Equilibrium Effects of Workers’ Outside Employment Options: Evidence from a Labour Market Integration</title>
-      <link>http://localhost:40377/paper/</link>
+      <link>http://localhost:42435/paper/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40377/paper/</guid>
+      <guid>http://localhost:42435/paper/</guid>
       <description>We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results thus show that if labour supply is elastic enough, the local labour market can expand and absorb additional competition for workers.</description>
     </item>
     
     <item>
       <title>Empirically testing privacy in machine learning </title>
-      <link>http://localhost:40377/privacy-testing/</link>
+      <link>http://localhost:42435/privacy-testing/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40377/privacy-testing/</guid>
+      <guid>http://localhost:42435/privacy-testing/</guid>
       <description>We review the empirical testing of privacy in machine learning, focusing on the intuitions for and assumptions behind such tests. We then discuss whether and how these tests could be used when evaluating generative algorithms for deployment at statistical agencies and in the health care system. </description>
     </item>
     
     <item>
       <title>Sirup: simple IP rotation using python</title>
-      <link>http://localhost:40377/sirup/</link>
+      <link>http://localhost:42435/sirup/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40377/sirup/</guid>
+      <guid>http://localhost:42435/sirup/</guid>
       <description>Manage your IP address in python</description>
     </item>
     
     <item>
       <title>Networks in the market for researchers</title>
-      <link>http://localhost:40377/network-hiring/</link>
+      <link>http://localhost:42435/network-hiring/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40377/network-hiring/</guid>
+      <guid>http://localhost:42435/network-hiring/</guid>
       <description>We study the role of collaboration networks for placing PhD students in the U.S. We find a substantial and rising role for network hiring. For graduates placed via the advisor&amp;#39;s network, we document a citation premium of 9 to 30 percent but find no evidence of private information being revealed. </description>
     </item>
     
     <item>
-      <title>Dataset Title</title>
-      <link>http://localhost:40377/data/data1/</link>
-      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:40377/data/data1/</guid>
-      <description>This dataset contains things.</description>
-    </item>
-    
-    <item>
       <title>mag_sample</title>
-      <link>http://localhost:40377/mag_sample/</link>
+      <link>http://localhost:42435/mag_sample/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40377/mag_sample/</guid>
+      <guid>http://localhost:42435/mag_sample/</guid>
       <description>Process data from Microsoft Academic and link to ProQuest</description>
     </item>
     
     <item>
       <title>magutils</title>
-      <link>http://localhost:40377/magutils/</link>
+      <link>http://localhost:42435/magutils/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40377/magutils/</guid>
+      <guid>http://localhost:42435/magutils/</guid>
       <description>Load tables from MAG/ProQuest linked data</description>
     </item>
     
