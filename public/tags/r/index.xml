@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>R on Flavio Hafner</title>
-    <link>http://localhost:42435/tags/r/</link>
+    <link>http://localhost:42441/tags/r/</link>
     <description>Recent content in R on Flavio Hafner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:42435/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:42441/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>magutils</title>
-      <link>http://localhost:42435/magutils/</link>
+      <link>http://localhost:42441/magutils/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42435/magutils/</guid>
+      <guid>http://localhost:42441/magutils/</guid>
       <description>Load tables from MAG/ProQuest linked data</description>
     </item>
     

@@ -2,98 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:42435/tags/commuting/</loc>
+    <loc>http://localhost:42441/tags/commuting/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/</loc>
+    <loc>http://localhost:42441/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/outside-options/</loc>
+    <loc>http://localhost:42441/tags/outside-options/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/papers/</loc>
+    <loc>http://localhost:42441/papers/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/</loc>
+    <loc>http://localhost:42441/tags/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/paper/</loc>
+    <loc>http://localhost:42441/paper/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/differential-privacy/</loc>
+    <loc>http://localhost:42441/tags/differential-privacy/</loc>
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/privacy-testing/</loc>
+    <loc>http://localhost:42441/privacy-testing/</loc>
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/literature-review/</loc>
+    <loc>http://localhost:42441/tags/literature-review/</loc>
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/machine-learning/</loc>
+    <loc>http://localhost:42441/tags/machine-learning/</loc>
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/ip-rotation/</loc>
+    <loc>http://localhost:42441/tags/ip-rotation/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/python/</loc>
+    <loc>http://localhost:42441/tags/python/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/sirup/</loc>
+    <loc>http://localhost:42441/sirup/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/software/</loc>
+    <loc>http://localhost:42441/software/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/vpn/</loc>
+    <loc>http://localhost:42441/tags/vpn/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/network-hiring/</loc>
+    <loc>http://localhost:42441/network-hiring/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/record-linkage/</loc>
+    <loc>http://localhost:42441/tags/record-linkage/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/social-networks/</loc>
+    <loc>http://localhost:42441/tags/social-networks/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/data/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:42435/data/data1/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:42435/tags/keyword-10/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:42435/tags/keyword-5/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:42435/tags/keyword-6/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:42435/tags/keyword-7/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:42435/tags/bibliometric-data/</loc>
+    <loc>http://localhost:42441/tags/bibliometric-data/</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/mag_sample/</loc>
+    <loc>http://localhost:42441/mag_sample/</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/sql/</loc>
+    <loc>http://localhost:42441/tags/sql/</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/dbplyr/</loc>
+    <loc>http://localhost:42441/tags/dbplyr/</loc>
     <lastmod>2022-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/magutils/</loc>
+    <loc>http://localhost:42441/magutils/</loc>
     <lastmod>2022-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/tags/r/</loc>
+    <loc>http://localhost:42441/tags/r/</loc>
     <lastmod>2022-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42435/archive/</loc>
+    <loc>http://localhost:42441/archive/</loc>
   </url><url>
-    <loc>http://localhost:42435/teaching/</loc>
+    <loc>http://localhost:42441/blog/</loc>
+  </url><url>
+    <loc>http://localhost:42441/teaching/</loc>
   </url>
 </urlset>
