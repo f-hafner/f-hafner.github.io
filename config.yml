@@ -14,15 +14,13 @@ menu:
         - name: Papers
           url: papers/
           weight: 1
-        - name: Courses
-          url: courses/
+        - name: Software & Code
+          url: code/
           weight: 2
-        - name: Data
-          url: data/
-          weight: 3 
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
-          weight: 4
+        - name: Blog 
+          url: blog/
+        - name: Teaching
+          url: teaching/
 
 params:
     description: "I am a Research Software Engineer at the Netherlands eScience Center. "
@@ -58,35 +56,24 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Newsletter
-              url: https://pmichaillat.substack.com
+            - name: Software & Code
+              url: code/
+              weight: 2
+            - name: Blog 
+              url: blog/
             - name: Tags
               url: tags/
             - name: Archive
               url: archive/
     socialIcons:
-        - name: CV
-          url: cv.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+          url: mailto:f.hafner@esciencecenter.nl
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: Twitter
-          url: https://twitter.com/pmichaillat
+          url: https://github.com/f-hafner
+        - name: Orcid
+          url: https://orcid.org/0009-0000-5893-9000
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/flavio-hafner-6b451242/
 
     assets:
         disableHLJS: true

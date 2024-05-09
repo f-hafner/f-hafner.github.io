@@ -1,13 +1,13 @@
 ---
-title: "The Equilibrium Effects of Workers’ Outside Employment Options: Evidence from a Labor Market Integration" 
-date: 2022-09-22
+title: "The Equilibrium Effects of Workers’ Outside Employment Options: Evidence from a Labour Market Integration" 
+date: 2024-04-30
 url: /paper/
 # aliases: 
 #     - /old_url.html
 tags: ["outside options","commuting"]
 author: ["Flavio Hafner", "Christoph Hedtrich"]
-description: "We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results indicate that the reform increased the value of local job search, drawing more workers into the labor force and lowering labor market tightness." 
-summary: "We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results indicate that the reform increased the value of local job search, drawing more workers into the labor force and lowering labor market tightness."
+description: "We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results thus show that if labour supply is elastic enough, the local labour market can expand and absorb additional competition for workers."
+summary: "We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results thus show that if labour supply is elastic enough, the local labour market can expand and absorb additional competition for workers."
 # cover:
 #     image: "/paper_figure.png"
 #     alt: "Figure from paper"
@@ -30,9 +30,7 @@ summary: "We study a reform that eased cross-border commuting from France to the
 
 ##### Abstract:
 
-We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. Using a difference-in-difference strategy comparing French
-border labor markets with unaffected inland markets, we find: Wages increase among mid- and low-skill workers employed in France; employment in France does not
-decline overall and increases among low-skill workers; population, labor force participation and unemployment rise in France. We interpret the effects with an equilibrium search model where labor demand and supply are endogenous: The reform increased the value of local job search, drawing more workers into the labor force and lowering labor market tightness.
+We study a reform that eased cross-border commuting from France to the high-wage Swiss labour market. Using a difference-in-differences strategy comparing the French border region with the unaffected French inland, we find that wages increase among mid- and low-skill workers employed in the French border region. Employment in the French border region does not decline overall and increases particularly for low-skill workers. Both local labour supply and demand adjust substantially. Labour supply increases through the local population and the labour force participation rate. Firms increase sales and productivity more than wages, implying that the labour share did not rise. The results thus show that if labour supply is elastic enough, the local labour market can expand and absorb additional competition for workers.
 
 ---
 
