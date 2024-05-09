@@ -4,7 +4,7 @@ This repository contains a [Hugo](https://github.com/gohugoio/hugo) template to 
 
 ## Documentation
 
-The template is documented at https://pascalmichaillat.org/d5/.
+The template is forked from Pascal Michaillat; the documentation is [here](https://pascalmichaillat.org/d5/). 
 
 ## Illustration
 
@@ -56,18 +56,3 @@ The website was built with Hugo v0.124.1 on an Apple Silicon Mac running macOS S
 ## License
 
 The content of this repository is licensed under the terms of the MIT License.
-
-## Real-world implementations
-
-+ [Pascal Michaillat's website](https://pascalmichaillat.org/) ([source code](https://github.com/pmichaillat/pmichaillat.github.io))
-+ [Dylan Balla-Elliott's website](https://www.dballaelliott.com) ([source code](https://github.com/dballaelliott/site))
-+ [Rosa van den Ende's website](https://rosavandenende.github.io) ([source code](https://github.com/rosavandenende/rosavandenende.github.io))
-+ [Samia Kabir's website](https://samiakabir.com) ([source code](https://github.com/SamiaKabir/samiakabir.github.io))
-+ [Dylan Laplace Mermoud's website](https://dylanlaplacemermoud.github.io) ([source code](https://github.com/DylanLaplaceMermoud/dylanlaplacemermoud.github.io))
-+ [Maarten Goos's website](https://maartengoos.com) ([source code](https://github.com/MaartenGoos/website))
-+ [Aryan Ahadinia's website](https://aryanahadinia.github.io) ([source code](https://github.com/AryanAhadinia/AryanAhadinia.github.io))
-+ [Jun Wong's website](https://junwong.org) ([source code](https://github.com/junwong97/junwong97.github.io))
-+ [Erling Rennemo Jellum's website](https://erlingrj.github.io) ([source code](https://github.com/erlingrj/erlingrj.github.io))
-+ [Yangkeun Yun's website](https://yangkeunyun.github.io) ([source code](https://github.com/yangkeunyun/yangkeunyun.github.io))
-+ [Maghfira Ramadhani's website](https://maghfiraer.github.io) ([source code](https://github.com/maghfiraer/maghfiraer.github.io))
-+ [Qiwei He's website](https://www.qiwei-he.com)
