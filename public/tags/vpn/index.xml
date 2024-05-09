@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:40377/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sirup: simple IP rotation using python</title>
-      <link>http://localhost:40377/software/</link>
+      <link>http://localhost:40377/sirup/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40377/software/</guid>
+      <guid>http://localhost:40377/sirup/</guid>
       <description>Manage your IP address in python</description>
     </item>
     

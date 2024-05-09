@@ -35,7 +35,10 @@
     <loc>http://localhost:40377/tags/ip-rotation/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:40377/software/</loc>
+    <loc>http://localhost:40377/tags/python/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:40377/sirup/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:40377/software/</loc>
@@ -74,8 +77,20 @@
     <loc>http://localhost:40377/tags/bibliometric-data/</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:40377/software/</loc>
+    <loc>http://localhost:40377/mag_sample/</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:40377/tags/sql/</loc>
+    <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:40377/tags/dbplyr/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:40377/magutils/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:40377/tags/r/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:40377/courses/course1/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
@@ -103,5 +118,7 @@
     <loc>http://localhost:40377/location/</loc>
   </url><url>
     <loc>http://localhost:40377/officehours/</loc>
+  </url><url>
+    <loc>http://localhost:40377/teaching/</loc>
   </url>
 </urlset>

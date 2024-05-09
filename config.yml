@@ -61,6 +61,8 @@ params:
               weight: 2
             - name: Blog 
               url: blog/
+            - name: Teaching
+              url: teaching/
             - name: Tags
               url: tags/
             - name: Archive

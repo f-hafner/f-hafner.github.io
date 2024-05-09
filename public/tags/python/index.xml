@@ -6,7 +6,16 @@
     <description>Recent content in Python on Flavio Hafner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:40377/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:40377/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sirup: simple IP rotation using python</title>
+      <link>http://localhost:40377/sirup/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:40377/sirup/</guid>
+      <description>Manage your IP address in python</description>
+    </item>
+    
     <item>
       <title>mag_sample</title>
       <link>http://localhost:40377/mag_sample/</link>

@@ -18,10 +18,10 @@
     
     <item>
       <title>mag_sample</title>
-      <link>http://localhost:40377/software/</link>
+      <link>http://localhost:40377/mag_sample/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40377/software/</guid>
+      <guid>http://localhost:40377/mag_sample/</guid>
       <description>Process data from Microsoft Academic and link to ProQuest</description>
     </item>
     
