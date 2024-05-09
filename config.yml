@@ -15,7 +15,7 @@ menu:
           url: papers/
           weight: 1
         - name: Software & Code
-          url: code/
+          url: software/
           weight: 2
         - name: Blog 
           url: blog/
@@ -57,7 +57,7 @@ params:
             - name: Papers
               url: papers/
             - name: Software & Code
-              url: code/
+              url: software/
               weight: 2
             - name: Blog 
               url: blog/
