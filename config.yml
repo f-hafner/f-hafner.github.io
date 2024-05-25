@@ -49,10 +49,10 @@ params:
           enabled: true
           title: Flavio Hafner
           subtitle: "I am a Research Software Engineer at the Netherlands eScience Center. I am interested in machine learning (in particular privacy protection and applications for labor market research), information retrieval and NLP. I am also exploring cross-disciplinary approaches bridging various fields."
-          # imageUrl: "avatar.jpg"
-          # imageWidth: 190
-          # imageHeight: 180
-          # imageTitle: picture
+          imageUrl: "avatar_square.jpg"
+          imageWidth: 190
+          imageHeight: 190
+          imageTitle: picture
           buttons:
             - name: Papers
               url: papers/

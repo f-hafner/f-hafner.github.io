@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Commuting on Flavio Hafner</title>
-    <link>http://localhost:42441/tags/commuting/</link>
+    <link>http://localhost:1313/tags/commuting/</link>
     <description>Recent content in Commuting on Flavio Hafner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:42441/tags/commuting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/commuting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Equilibrium Effects of Workers’ Outside Employment Options: Evidence from a Labour Market Integration</title>
-      <link>http://localhost:42441/paper/</link>
+      <link>http://localhost:1313/paper/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42441/paper/</guid>
+      <guid>http://localhost:1313/paper/</guid>
       <description>We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results thus show that if labour supply is elastic enough, the local labour market can expand and absorb additional competition for workers.</description>
     </item>
     

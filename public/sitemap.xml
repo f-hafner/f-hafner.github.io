@@ -2,82 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:42441/tags/commuting/</loc>
+    <loc>http://localhost:1313/tags/commuting/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/outside-options/</loc>
+    <loc>http://localhost:1313/tags/outside-options/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/papers/</loc>
+    <loc>http://localhost:1313/papers/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/paper/</loc>
+    <loc>http://localhost:1313/paper/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/differential-privacy/</loc>
+    <loc>http://localhost:1313/tags/differential-privacy/</loc>
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/privacy-testing/</loc>
+    <loc>http://localhost:1313/privacy-testing/</loc>
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/literature-review/</loc>
+    <loc>http://localhost:1313/tags/literature-review/</loc>
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/machine-learning/</loc>
+    <loc>http://localhost:1313/tags/machine-learning/</loc>
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/ip-rotation/</loc>
+    <loc>http://localhost:1313/tags/ip-rotation/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/sirup/</loc>
+    <loc>http://localhost:1313/sirup/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/software/</loc>
+    <loc>http://localhost:1313/software/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/vpn/</loc>
+    <loc>http://localhost:1313/tags/vpn/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/network-hiring/</loc>
+    <loc>http://localhost:1313/network-hiring/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/record-linkage/</loc>
+    <loc>http://localhost:1313/tags/record-linkage/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/social-networks/</loc>
+    <loc>http://localhost:1313/tags/social-networks/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/bibliometric-data/</loc>
+    <loc>http://localhost:1313/tags/bibliometric-data/</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/mag_sample/</loc>
+    <loc>http://localhost:1313/mag_sample/</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/sql/</loc>
+    <loc>http://localhost:1313/tags/sql/</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/dbplyr/</loc>
+    <loc>http://localhost:1313/tags/dbplyr/</loc>
     <lastmod>2022-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/magutils/</loc>
+    <loc>http://localhost:1313/magutils/</loc>
     <lastmod>2022-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/tags/r/</loc>
+    <loc>http://localhost:1313/tags/r/</loc>
     <lastmod>2022-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42441/archive/</loc>
+    <loc>http://localhost:1313/archive/</loc>
   </url><url>
-    <loc>http://localhost:42441/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
   </url><url>
-    <loc>http://localhost:42441/teaching/</loc>
+    <loc>http://localhost:1313/teaching/</loc>
   </url>
 </urlset>
