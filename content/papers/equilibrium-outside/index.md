@@ -1,7 +1,7 @@
 ---
 title: "The Equilibrium Effects of Workers’ Outside Employment Options: Evidence from a Labour Market Integration" 
 date: 2024-04-30
-url: /paper/
+url: /equilibrium-outside/
 # aliases: 
 #     - /old_url.html
 tags: ["outside options","commuting"]
