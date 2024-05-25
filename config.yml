@@ -19,8 +19,10 @@ menu:
           weight: 2
         - name: Blog 
           url: blog/
+          weight: 3
         - name: Teaching
           url: teaching/
+          weight: 4
 
 params:
     description: "I am a Research Software Engineer at the Netherlands eScience Center. "
