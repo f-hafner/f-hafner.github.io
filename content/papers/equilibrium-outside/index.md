@@ -12,9 +12,9 @@ summary: "We study a reform that eased cross-border commuting from France to the
 #     image: "/paper_figure.png"
 #     alt: "Figure from paper"
 #     relative: false
-# editPost:
-#     URL: "https://doi.org/paper_doi"
-#     Text: "Journal/Repository Name"
+editPost:
+    URL: null
+    Text: "Reject&Resubmit, Economic Journal"
 
 ---
 

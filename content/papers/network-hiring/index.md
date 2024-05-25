@@ -13,7 +13,7 @@ summary: "We study the role of collaboration networks for placing PhD students i
 #     alt: "Figure Figure from paper1a from paper"
 #     relative: false
 editPost:
-    # URL: "https://doi.org/paper_doi"
+    URL: null
     Text: "R&R, Economic Journal"
 
 ---

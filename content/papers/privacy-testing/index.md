@@ -12,9 +12,9 @@ summary: "We review the empirical testing of privacy in machine learning, focusi
 #     image: "/paper_figure.png"
 #     alt: "Figure from paper"
 #     relative: false
-# editPost:
-#     URL: "https://doi.org/paper_doi"
-#     Text: "Journal/Repository Name"
+editPost:
+    URL: null
+    Text: "Draft"
 
 ---
 
