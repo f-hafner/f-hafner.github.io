@@ -1,12 +1,13 @@
 <!-- edited with ChatGPT on 25/05/24 -->
-{{- if or .Params.author site.Params.author (.Param "ShowReadingTime") (not .Date.IsZero) .IsTranslated -}}
-    &nbsp;&middot;&nbsp;
-{{- end -}}
+
 
 <!-- {{- printf "editPost URL: %v\n" .Params.editPost.URL | safeHTML -}}
 {{- printf "editPost Text: %v\n" .Params.editPost.Text | safeHTML -}} -->
 
 {{- if .Params.editPost -}}
+    {{- if or .Params.author site.Params.author (.Param "ShowReadingTime") (not .Date.IsZero) .IsTranslated -}}
+        &nbsp;&middot;&nbsp;
+    {{- end -}}
     {{- if .Params.editPost.URL -}}
         <a href="{{ .Params.editPost.URL }}" rel="noopener noreferrer" target="_blank">
             {{- .Params.editPost.Text | default (site.Params.editPost.Text | default (i18n "edit_post" | default "Edit")) -}}
