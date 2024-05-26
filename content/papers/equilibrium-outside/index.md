@@ -1,9 +1,9 @@
 ---
 title: "The Equilibrium Effects of Workers’ Outside Employment Options: Evidence from a Labour Market Integration" 
 date: 2024-04-30
-url: /equilibrium-outside/
-aliases: 
-    - /paper.html
+url: /paper/
+# aliases: 
+#     - /paper.html
 tags: ["outside options","commuting"]
 author: ["Flavio Hafner", "Christoph Hedtrich"]
 description: "We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results thus show that if labour supply is elastic enough, the local labour market can expand and absorb additional competition for workers."
