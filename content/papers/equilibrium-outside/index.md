@@ -6,8 +6,8 @@ url: /paper/
 #     - /paper.html
 tags: ["outside options","commuting"]
 author: ["Flavio Hafner", "Christoph Hedtrich"]
-description: "We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results thus show that if labour supply is elastic enough, the local labour market can expand and absorb additional competition for workers."
-summary: "We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results thus show that if labour supply is elastic enough, the local labour market can expand and absorb additional competition for workers."
+description: "We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results show that if labour supply is elastic enough, the local labour market can expand and absorb additional competition for workers."
+summary: "We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results show that if labour supply is elastic enough, the local labour market can expand and absorb additional competition for workers."
 # cover:
 #     image: "/paper_figure.png"
 #     alt: "Figure from paper"
