@@ -14,7 +14,7 @@ summary: "We study a reform that eased cross-border commuting from France to the
 #     relative: false
 editPost:
     URL: null
-    Text: "Reject&Resubmit, Economic Journal"
+    Text: "R&R, Economic Journal"
 
 ---
 
