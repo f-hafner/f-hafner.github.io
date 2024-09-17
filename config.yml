@@ -79,6 +79,11 @@ params:
         - name: LinkedIn
           url: https://www.linkedin.com/in/flavio-hafner-6b451242/
 
+
+    analytics:
+      google:
+        SiteVerificationTag: "M6It8aM30A78d_jHWRwk7SHIrDTIxWZl-qBnOyakzD8"
+
     assets:
         disableHLJS: true
         disableScrollBarStyle: true
