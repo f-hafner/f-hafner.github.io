@@ -1,5 +1,5 @@
 ---
-title: "Empirically testing privacy in machine learning " 
+title: "Empirical Privacy Evaluations of Generative and Predictive Machine Learning Models -- A review and challenges for practice"
 date: 2024-11-20
 url: /privacy-testing/
 # aliases: 
@@ -63,3 +63,4 @@ year = {Year}}
 <!-- + [Presentation slides](/presentation.pdf) -->
 - [Project on the Research Software Directory](https://research-software-directory.org/projects/gans)
 - [arxiv](https://arxiv.org/abs/2411.12451)
+- [Presentation at the Odissei Community conference 2024](https://doi.org/10.5281/zenodo.14439435)
