@@ -1,13 +1,13 @@
 ---
 title: "Networks in the market for researchers" 
-date: 2023-12-06
+date: 2024-12-09
 url: /network-hiring/
 # aliases: 
 #     - /old_url.html
 tags: ["social networks", "record linkage"]
 author: ["Flavio Hafner", "Christoph Hedtrich"]
-description: "We study the role of collaboration networks for placing PhD students in the U.S. We find a substantial and rising role for network hiring. For graduates placed via the advisor's network, we document a citation premium of 9 to 30 percent but find no evidence of private information being revealed. " 
-summary: "We study the role of collaboration networks for placing PhD students in the U.S. We find a substantial and rising role for network hiring. For graduates placed via the advisor's network, we document a citation premium of 9 to 30 percent but find no evidence of private information being revealed. " 
+description: "We study the role of collaboration networks for placing PhD students in the U.S. We observe a sizable citation premium for graduates placed through the advisor's network. However, when comparing graduates hired at the same university, the productivity premium is fully explained by public information on the productivity at the time of graduation."
+summary: "We study the role of collaboration networks for placing PhD students in the U.S. We observe a sizable citation premium for graduates placed through the advisor's network. However, when comparing graduates hired at the same university, the productivity premium is fully explained by public information on the productivity at the time of graduation."
 # cover:
 #     image: "figure1a.png"
 #     alt: "Figure Figure from paper1a from paper"
@@ -30,7 +30,21 @@ editPost:
 
 ##### Abstract:
 
-We study the role of collaboration networks in the labor market for young scientists in the United States. Nearly one in five PhD graduates publish after graduation at universities where their advisor has a co-author; such pre-existing connections more than double the probability of matching with the university---even within fine-grained peer groups. The importance of the advisor’s network for placement doubled from 1990 to 2014. For graduates placed via the advisor's network, we document a citation premium of 9 to 30 percent but find no evidence of private information being revealed.
+We study the role of collaboration networks in the U.S. market for early-
+career scientists. In 2014, about 21% of PhD graduates found their first job
+at a university where their advisor had a co-author---a threefold increase from
+1990. Such connections more than double the probability of finding a job at a
+given university, even after controlling for unobserved factors at the level of PhD
+class–hiring university pair and for the topical fit between the PhD graduate’s
+dissertation and research at the hiring university. We observe a sizable citation
+premium for graduates placed through the advisor’s network. However, when comparing 
+graduates hired at the same university, the productivity premium is fully
+explained by public information on the productivity of the PhD graduate and their
+advisor at the time of graduation. These results suggest that PhD advisors do not
+convey additional private information about match quality or the PhD graduate’s
+productivity in their collaboration network. While the estimated role of network-
+based placements has doubled from 1990 to 2014, the citation premium for network
+hires has remained constant.
 
 
 ---
