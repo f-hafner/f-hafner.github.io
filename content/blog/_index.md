@@ -8,8 +8,5 @@ showToc: false
 
 ---
 
-### Coming soon
-
-Space for blog and notebooks.
 
 ---
