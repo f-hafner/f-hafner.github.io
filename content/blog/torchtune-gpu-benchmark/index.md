@@ -60,7 +60,8 @@ We found that [torchtune](https://pytorch.org/torchtune/stable/index.htm) fits o
 
 The figure below shows the results from our benchmarking runs:
 
-![](della-snellius-ossc.png)
+![della-snellius-ossc](./della-snellius-ossc.png)
+
 *Tokens per second per GPU on a single node (higher is better). The colors refer to different systems (Della, Snellius, OSSC); the panels refer to different numbers of GPUs.*
 
 In our experience, there was little variation in throughput across different runs on the same system, so we did not average over multiple runs.
