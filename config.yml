@@ -50,7 +50,7 @@ params:
     profileMode:
           enabled: true
           title: Flavio Hafner
-          subtitle: "I am a Research Software Engineer at the Netherlands eScience Center. I work at the intersection of applied statistics, machine learning and social sciences. I am particularly interested in machine learning for personal data, efficient computing, software engineering and information retrieval."
+          subtitle: "I am a Research Software Engineer at the Netherlands eScience Center. I work at the intersection of applied statistics, machine learning and social sciences. I am particularly interested in machine learning for economic & social data, efficient computing, software engineering and information retrieval."
           imageUrl: "avatar.jpg"
           imageWidth: 190
           imageHeight: 190
