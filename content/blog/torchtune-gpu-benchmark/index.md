@@ -48,7 +48,7 @@ Our compute conditions are the following:
 
 ### The implementation
 
-We found that [torchtune](https://pytorch.org/torchtune/stable/index.htm) fits our requirements best. We fine-tune the [Llama-3.2–1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) model on the [alpaca-cleaned](https://huggingface.co/datasets/yahma/alpaca-cleaned) dataset. Our main hyperparameters are:
+We found that [torchtune](https://pytorch.org/torchtune/stable/index.html) fits our requirements best. We fine-tune the [Llama-3.2–1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) model on the [alpaca-cleaned](https://huggingface.co/datasets/yahma/alpaca-cleaned) dataset. Our main hyperparameters are:
 - A context length of 2048 on a packed dataset
 - Low-Rank Adaptation (LoRA) for the attention layers as well as the output layers. We use a rank of 64, alpha of 128 and 0 dropout.
 - A batch size of 6, which was the maximum we could fit into our least capable GPUs (A100)
