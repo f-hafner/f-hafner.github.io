@@ -15,10 +15,9 @@ disableAnchoredHeadings: false
 
 Research in the social and health sciences often relies on accessing data sourced from statistical agencies or healthcare organizations. Such data sets contain sensitive information, which requires restrictions on who can access the data. This can slow down not only scientific progress---if data were completely open, more researchers could investigate them---, but also the translation of progress to applications---for instance, machine learning models trained on medical data cannot easily be shared and re-used for personalized treatments.
 
+Differential privacy is one technology that aims to solve this problem. Intuitively, it is a method that adds calibrated noise to the data, and so prevents a malevolent actor from learning sensitive attributes about any person in the underlying data. But because statistical noise makes statistical inference harder, there is an inherent trade-off between statistical utility and privacy---making differential privacy challenging to deploy in practice ([Cummings & Sarathy, 2023](https://arxiv.org/abs/2406.12103))
 
-Differential privacy is one technology that aims to solve this problem. Intuitively, it is a method that adds calibrated noise to the data, and so prevents a malevolent actor from learning sensitive attributes about any person in the underlying data. But because statistical noise makes statistical inference harder, there is an inherent trade-off between statistical utility and privacy---making differential privacy challenging to deploy in practice ([Cummings & Sarathy, 2023](https://arxiv.org/abs/2406.12103)).
-
-In addition, using differential privacy in machine learning has its own challenges. First, often it’s impossible to have reasonable privacy and utility at the same time. Second, differential privacy for machine learning makes strong assumptions about the capabilities of the malevolent actor. Third, implementing it in software is not straightforward, and there is evidence of bugs ([Cummings et. al., 2023](https://arxiv.org/abs/2304.06929); [Nasr et. al., 2023](https://arxiv.org/abs/2302.07956); [Ponomareva et. al., 2023](https://arxiv.org/abs/2303.00654)).
+In addition, using differential privacy in machine learning has its own challenges. First, often it’s impossible to have reasonable privacy and utility at the same time. Second, differential privacy for machine learning makes strong assumptions about the capabilities of the malevolent actor. Third, implementing it in software is not straightforward, and there is evidence of bugs ([Cummings et al., 2023](https://arxiv.org/abs/2304.06929); [Nasr et al., 2023](https://arxiv.org/abs/2302.07956); [Ponomareva et al., 2023](https://arxiv.org/abs/2303.00654)).([Cummings et al., 2023](https://arxiv.org/abs/2304.06929); [Nasr et al., 2023](https://arxiv.org/abs/2302.07956); [Ponomareva et al., 2023](https://arxiv.org/abs/2303.00654)).
 
 For this reason, empirically evaluating the privacy of machine learning models has become an important field of research. Privacy testing probes whether a trained machine learning model leaks sensitive information. It can be an important indicator for model developers and owners of sensitive data whether the privacy-preserving training mechanism can be trusted.
 
@@ -31,6 +30,7 @@ Despite this, most resources in this topic are in research articles. The goal of
 3. The third post discusses how the hypothesis testing perspective has been used to reformulate differential privacy with functional differential privacy and Gaussian differential privacy. It is aimed at readers interested in understanding privacy testing of machine learning.
 4. The fourth blog post discusses some recent papers that audit machine learning models and make use of Gaussian differential privacy. It is aimed at an audience similar to the third post.
 
+
 ## A short introduction with an example
 
 This section builds on [Dwork & Roth (2013)](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf).
@@ -39,7 +39,7 @@ This section builds on [Dwork & Roth (2013)](https://www.cis.upenn.edu/~aaroth/P
 
 Imagine a researcher wants to know the fraction of people that engage in a behavior that is illegal or socially not accepted---for instance, if they have income that they do not declare to the tax agency. The researcher runs a survey and asks people whether they have such income. Denote this behavior by the variable $X$, and let’s say it can take values 0 or 1, where 1 indicates the person earns undeclared income, and 0 indicates the person does not.
 
-How can the researcher ensure that people are willing to share this sensitive information with them? To solve this problem, social scientists have developed a method called randomized response, which gives survey participants the following instructions:
+How can the researcher ensure that people are willing to share this sensitive information with them? To solve this problem, social scientists have developed a method called *randomized response*, which gives survey participants the following instructions:
 
 - Flip a coin privately.
 - If it comes up heads, answer truthfully.
@@ -51,17 +51,20 @@ In addition, in a more general setting, one could replace the first coin flip wi
 
 ### Formal definition of differential privacy
 
-Define `db` as a tabular database where each row corresponds to the data of one person. We call `db1` and `db2` neighboring databases when they differ by one record: they hold the exact same information, except for one person called Anne. For instance, it can be that Anne is not present in database db1 but in db2, or that some column in Anne’s row is altered in `db2` but not `db1`.
+Define `db` as a tabular database where each row corresponds to the data of one person. We call `db0` and `db1` neighboring databases when they differ by one record: they hold the exact same information, except for one person called Anne. For instance, it can be that Anne is not present in database `db0` but in `db1`, or that some column in Anne’s row is altered in `db1` but not `db0`.
 
-Now, consider an algorithm `M` that takes db as input and creates some output. The algorithm is randomized because its outcome is not deterministic, but drawn from some distribution: The distribution of outcomes of the algorithm when fed with db is denoted `M(db)`.
+Now, consider an algorithm `M` that takes db as input and creates some output. The algorithm is randomized because its outcome is not deterministic, but drawn from some distribution: The distribution of outcomes of the algorithm when fed with `db` is denoted `M(db)`.
 
-Such an algorithm is called $(\varepsilon,0)$-differentially private if the distribution of `M(db1)` and the distribution of `M(db2)` are not too different from each other---formally, if the log odds of observing any outcome from `M(db1)` vs `M(db2)` are not larger than $\varepsilon$. The $0$ in the expression $(\varepsilon,0)$ is a second parameter called delta, which denotes the probability that this guarantee fails. It is typically a very small number that decreases in the size of the database db.
+Such an algorithm is called $(\varepsilon,0)$-differentially private if the distribution of `M(db1)` and the distribution of `M(db2)` are not too different from each other---formally, if the log odds of observing any outcome from `M(db1)` vs `M(db2)` are not larger than $\varepsilon$. The $0$ in the expression $(\varepsilon,0)$ is a second parameter called $\delta$, which denotes the probability that this guarantee fails. It is typically a very small number that decreases in the size of the database `db`.
 
 ### Differential privacy of randomized response
 
-This is an abstract definition, but we now show that randomized response satisfies differential privacy. Let `y_i = M(x_i)=1` denoting that person `i` with attribute `x_i` answers 1 to the survey. Note that we only observe `y_i` and `x_i` is kept private. The randomized mechanism `M` is the protocol that instructs people to flip coins and respond accordingly; `M` generates a Bernoulli distribution of outcomes with the following probabilities.
+This is an abstract definition, but we now show that randomized response satisfies differential privacy. To do so, we assume that the database db only consists of one person---one row---, and one variable---the answer to the survey. We will relax this assumption later.
 
-Consider two neighboring databases, one in which `x_i=1` and another in which `x_i=0`. What are the probabilities of `y_i=1` given values for `x`? If `x_i=1`, the person answers “1” with probability 0.75; if `x_i=0`, the person answers “1” with probability 0.25. In other words, for person `i`, the odds-ratio for randomized response returning `y_i=1` when having `x_i=1` as opposed to having `x_i=0` is $\frac{\Pr[y_i = 1 | x_i = 1]}{\Pr[y_i = 1 | x_i = 0]} = \frac{3/4}{1/4}=3$. We can do a similar analysis for the outcome `y_i=0`. Therefore, randomized response satisfies $(ln(3),0)$ differential privacy.
+Let `y_i = M(x_i) = 1` denote that person `i` with attribute `x_i` answers 1 to the survey. Note that we only observe `y_i` and `x_i` is kept private. The randomized mechanism `M` is the protocol that instructs people to flip coins and respond accordingly; `M` generates a Bernoulli distribution of outcomes over neighboring databases with the following probabilities.
+
+We can construct neighboring databases by varying person `i`‘s sensitive attribute `x_i`: One input database has `x_i=1`, and the other has `x_i=0`. Running randomized response, what are the probabilities of `y_i=1` given values for `x`? If `x_i=1`, the person answers “1” with probability 0.75; if `x_i=0`, the person answers “1” with probability 0.25. In other words, for person `i`, the odds ratio for randomized response returning `y_i=1` when having `x_i=1` as opposed to having `x_i=0` is $\frac{\Pr(y_i=1|x_i=1)}{\Pr(y_i=1|x_i=0)}=(3/4)/(1/4)=3$. We can do a similar analysis for the outcome `y_i=0`. Therefore, randomized response satisfies `(ln(3),0)` differential privacy.
+
 
 ### Economic intuition
 
@@ -77,13 +80,22 @@ In other words, Bob’s expected utility is similar in the two scenarios conside
 
 ## The limits of this example
 
-But, what happens if the tax office knows the individual responses to the survey? Would then privacy not be severely compromised?
+Above, we made the simplifying assumption that a database consists only of one row and one column. In real life, databases have multiple rows and columns. That’s why it is common to define neighboring databases by taking two databases that vary exactly by one row, but are otherwise identical.
 
-Yes. The preceding example is a simplified version of the model of computation behind differential privacy, which makes two important assumptions. The first assumption is that there is a trusted curator of the data---in our case the researcher that holds the individual survey responses are trusted to not leak the individual responses to the tax office. The second assumption is that only results to queries are released---in our case, “the fraction of people that have undeclared income”.
+But working with this more general definition, applying randomized response to the sensitive attribute `x_i` is not enough anymore to guarantee the privacy of each person in the survey. For instance, if for each person, the researcher published the randomized response `y_i` along with some of their true identifying information---for instance their address and age---, it would be possible for the tax office to prosecute people with `y_i=1`, since they are more likely to have `x_i=1`.
 
-In addition, we have assumed that the tax office cannot query the data multiple times. If that was the case, they could potentially identify some of the survey participants, prosecute them, and penalize them. And thus this participant’s utility would be very different when they are in the database and when they are not---even if each query individually satisfies differential privacy.
+Instead, the researcher needs to collect the real answers of all participants, decide which statistic to use for publishing the results, and apply a respective algorithm that satisfies differential privacy. But this then also requires that the survey participants trust the researcher that they will not use the sensitive data against them.
 
-This problem is known as composition, and differential privacy provides mathematical tools to study how privacy degrades with composition. It is an important concept, and we will touch on this concept again in a later post.
+### Differential privacy’s model of computation
+
+These questions bring us to two important assumptions behind differential privacy. The first assumption is that there is a **trusted curator** of the data---in our case the researcher that holds the individual survey responses are trusted to not leak the individual responses to the tax office.
+
+The second assumption is that only results to queries are released---in our case, a relevant statistic of the survey such as “the fraction of people that have undeclared income”.
+
+Another important aspect of differential privacy is that multiple queries of the same data weaken privacy, even if each query itself satisfies differential privacy. For instance, suppose the researcher allowed the tax office to get multiple differentially private queries of the original data. Then, the tax office could gradually refine their queries and potentially identify a certain person that does not pay their taxes.
+
+This problem is known as **composition**, and differential privacy provides mathematical tools to study how exactly privacy degrades with composition. We will touch on it again in the context of differentially private machine learning.
+
 
 ## Conclusion
 
