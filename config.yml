@@ -103,6 +103,6 @@ markup:
         guessSyntax: true
         style: autumn 
     tableOfContents:
-        endLevel: 2
+        endLevel: 3
         ordered: false
         startLevel: 2
