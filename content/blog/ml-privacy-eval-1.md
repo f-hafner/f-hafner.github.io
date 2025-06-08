@@ -25,8 +25,8 @@ For this reason, empirically evaluating the privacy of machine learning models h
 
 Despite this, most resources in this topic are in research articles. The goal of this series of blog posts is to make the topic more accessible. We will build knowledge from the ground up:
 
-1. The first blog posts briefly introduces differential privacy, and gives some economic intuition. It is aimed at readers unfamiliar with differential privacy.
-2. The second post explains how differential privacy can be interpreted from a perspective of statistical hypothesis testing. It is aimed at readers familiar with differential privacy and some concepts from statistics and machine learning.
+1. The first blog posts introduces differential privacy, and gives some economic intuition. It is aimed at readers unfamiliar with differential privacy.
+2. The [second post](../ml-privacy-eval-2/) explains how differential privacy can be interpreted from a perspective of statistical hypothesis testing. It is aimed at readers familiar with differential privacy and some concepts from statistics and machine learning.
 3. The third post discusses how the hypothesis testing perspective has been used to reformulate differential privacy with functional differential privacy and Gaussian differential privacy. It is aimed at readers interested in understanding privacy testing of machine learning.
 4. The fourth blog post discusses some recent papers that audit machine learning models and make use of Gaussian differential privacy. It is aimed at an audience similar to the third post.
 
@@ -99,7 +99,7 @@ This problem is known as **composition**, and differential privacy provides math
 
 ## Conclusion
 
-We used an example from social science research to illustrate how differential privacy can strike a trade-off between utility and privacy. The example helped illustrate the assumptions that are important for privacy guarantees. In the next blog post, we will look at the hypothesis testing interpretation of differential privacy.
+We used an example from social science research to illustrate how differential privacy can strike a trade-off between utility and privacy. The example helped illustrate the assumptions that are important for privacy guarantees. In the [next](../ml-privacy-eval-2/) blog post, we will look at the hypothesis testing interpretation of differential privacy.
 
 >Thanks to Kody Moodley, Erik Tjong Kim Sang and Lourens Veen for commenting on and discussing an earlier draft.
 
