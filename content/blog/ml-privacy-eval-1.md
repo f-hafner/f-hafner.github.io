@@ -27,7 +27,7 @@ Despite this, most resources in this topic are in research articles. The goal of
 
 1. The first blog posts introduces differential privacy, and gives some economic intuition. It is aimed at readers unfamiliar with differential privacy.
 2. The [second post](../ml-privacy-eval-2/) explains how differential privacy can be interpreted from a perspective of statistical hypothesis testing. It is aimed at readers familiar with differential privacy and some concepts from statistics and machine learning.
-3. The third post discusses how the hypothesis testing perspective has been used to reformulate differential privacy with functional differential privacy and Gaussian differential privacy. It is aimed at readers interested in understanding privacy testing of machine learning.
+3. The [third post](../ml-privacy-eval-3/) discusses how the hypothesis testing perspective has been used to reformulate differential privacy with functional differential privacy and Gaussian differential privacy. It is aimed at readers interested in understanding privacy testing of machine learning.
 4. The fourth blog post discusses some recent papers that audit machine learning models and make use of Gaussian differential privacy. It is aimed at an audience similar to the third post.
 
 
