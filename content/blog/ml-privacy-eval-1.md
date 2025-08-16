@@ -17,13 +17,13 @@ Research in the social and health sciences often relies on accessing data source
 
 Differential privacy is one technology that aims to solve this problem. Intuitively, it is a method that adds calibrated noise to the data, and so prevents a malevolent actor from learning sensitive attributes about any person in the underlying data. But because statistical noise makes statistical inference harder, there is an inherent trade-off between statistical utility and privacy---making differential privacy challenging to deploy in practice ([Cummings & Sarathy, 2023](https://arxiv.org/abs/2406.12103))
 
-In addition, using differential privacy in machine learning has its own challenges. First, often it’s impossible to have reasonable privacy and utility at the same time. Second, differential privacy for machine learning makes strong assumptions about the capabilities of the malevolent actor. Third, implementing it in software is not straightforward, and there is evidence of bugs ([Cummings et al., 2023](https://arxiv.org/abs/2304.06929); [Nasr et al., 2023](https://arxiv.org/abs/2302.07956); [Ponomareva et al., 2023](https://arxiv.org/abs/2303.00654)).([Cummings et al., 2023](https://arxiv.org/abs/2304.06929); [Nasr et al., 2023](https://arxiv.org/abs/2302.07956); [Ponomareva et al., 2023](https://arxiv.org/abs/2303.00654)).
+In addition, using differential privacy in machine learning has its own challenges. First, often it’s impossible to have reasonable privacy and utility at the same time. Second, differential privacy for machine learning makes strong assumptions about the capabilities of the malevolent actor. Third, implementing it in software is not straightforward, and there is evidence of bugs ([Cummings et al., 2023](https://arxiv.org/abs/2304.06929); [Nasr et al., 2023](https://arxiv.org/abs/2302.07956); [Ponomareva et al., 2023](https://arxiv.org/abs/2303.00654)).
 
 For this reason, empirically evaluating the privacy of machine learning models has become an important field of research. Privacy testing probes whether a trained machine learning model leaks sensitive information. It can be an important indicator for model developers and owners of sensitive data whether the privacy-preserving training mechanism can be trusted.
 
 ## The plan for this series of blog posts
 
-Despite this, most resources in this topic are in research articles. The goal of this series of blog posts is to make the topic more accessible. We will build knowledge from the ground up:
+Because many resources in this topic are in research articles, this series of blog posts makes the topic more accessible. We will build knowledge from the ground up:
 
 1. The first blog posts introduces differential privacy, and gives some economic intuition. It is aimed at readers unfamiliar with differential privacy.
 2. The [second post](../ml-privacy-eval-2/) explains how differential privacy can be interpreted from a perspective of statistical hypothesis testing. It is aimed at readers familiar with differential privacy and some concepts from statistics and machine learning.
@@ -88,7 +88,7 @@ Instead, the researcher needs to collect the real answers of all participants, d
 
 ### Differential privacy’s model of computation
 
-These questions bring us to two important assumptions behind differential privacy. The first assumption is that there is a **trusted curator** of the data---in our case the researcher that holds the individual survey responses are trusted to not leak the individual responses to the tax office.
+These questions bring us to two important assumptions behind differential privacy. The first assumption is that there is a **trusted curator** of the data---in our case the researcher that holds the individual survey responses is trusted to not leak the individual responses to the tax office.
 
 The second assumption is that only results to queries are released---in our case, a relevant statistic of the survey such as “the fraction of people that have undeclared income”.
 
