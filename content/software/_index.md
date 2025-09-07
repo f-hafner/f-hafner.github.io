@@ -1,4 +1,4 @@
 ---
 title: "Software"
-description: "Some code and software I've written"
+description: "Software I've contributed to."
 ---
