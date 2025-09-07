@@ -1,5 +1,5 @@
 ---
-title: "Benchmarking LLM finetuning"
+title: "Benchmarking LLM finetuning and multi-node NCCL communication"
 date: 2025-08-02
 url: /odissei-benchmarks/
 tags: ["LLM finetuning", "benchmarking", "NCCL", "torchtune", "high-performance computing"]
