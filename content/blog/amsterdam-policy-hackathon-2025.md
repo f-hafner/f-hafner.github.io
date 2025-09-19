@@ -25,9 +25,9 @@ We argued that improved remote monitoring technologies such as PAVA's system enh
 
 *A team with diverse backgrounds is key*
 
-We only learned the details of the challenge (such as data to work with) after forming the team. With backgrounds in NLP, AI, design, public policy and economics, our team was well "diversified" for either a more or less technical case.
+We only learned the details of the challenge (such as data to work with) after forming the team. With backgrounds in NLP, human-centric AI, public policy and economics, our team was well "diversified" for either a more or less technical case.
 
-*Causal inference*
+*Causal inference was useful, but in an unexpected way*
 
 The challenge asked us to "make visible the unseen preventive effects". At first, I considered this a problem of estimating causal effects ex-post with observational data---however, the only data we were given were some comparisons of using different remote monitoring technologies. Nothing that one can run regressions on.
 
@@ -45,7 +45,7 @@ Gelderland's challenge probably had the most potential for technical exploration
 
 That's why I have an idea for future challenges: How about using a [Trusted Research Environment](https://lifebit.ai/blog/what-is-trusted-research-environment/) to share data with challenge teams? This way, participants could get access to more detailed data without having them on their personal laptops. And more challenge partners could benefit from the full pool of expertise of hackathon participants.
 
-Surely the organizational overhead would increase, and non-disclosure agreements would still be necessary, but I think this could be exciting. In the Netherlands, my colleagues at [Odissei](https://odissei-data.nl/) and [SURF](https://www.surf.nl/) provide this service via [SANE: Secure Analysis Environment](https://odissei-data.nl/facility/secure-analysis-environment-sane/). I'd be happy to explore this option for future editions of the hackathon.
+Surely the organizational overhead would increase, and non-disclosure agreements would still be necessary, but I think this could be exciting. In the Netherlands, my colleagues at [ODISSEI](https://odissei-data.nl/) and [SURF](https://www.surf.nl/) provide this service via [SANE: Secure Analysis Environment](https://odissei-data.nl/facility/secure-analysis-environment-sane/). I'd be happy to explore this option for future editions of the hackathon.
 
 ### Until next year
 
