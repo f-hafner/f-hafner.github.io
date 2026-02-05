@@ -5,7 +5,7 @@ url: /fosdem-2025/
 author: "Flavio Hafner"
 description: "My summary of the FOSDEM conference"
 tags: ["conference", "open-source-software", "differential-privacy", "python"]
-summary: "Highlights and notes from FOSDEM 2025"
+summary: "Highlights and notes from FOSDEM 2025."
 showToc: false 
 disableAnchoredHeadings: false
 
