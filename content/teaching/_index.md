@@ -12,9 +12,13 @@ showToc: false
 
 I obtained the Carpentries instructor certification in 2023. I have been teaching the following digital skills workshops at the Nehtherlands eScience Center.
 
+#### In 2025
+
+- As supporting instructor: Summer Institute in Computational Social Science (Rotterdam; Machine learning part)
+
 #### In 2024
 
-- As supporting instructor: Parallel Programming in Python, Odissei Summer School in Machine Learning, Machine learning in Python with scikit-learn
+- As supporting instructor: Parallel Programming in Python, Summer Institute in Computational Social Science (Rotterdam; Machine learning part), Machine learning in Python with scikit-learn
 - As helper: Intermediate Research Software Development with Python
 
 
