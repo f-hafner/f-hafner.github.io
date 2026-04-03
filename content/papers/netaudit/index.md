@@ -4,17 +4,17 @@ date: 2025-09-03
 url: /netaudit/
 # aliases: 
 #     - /old_url.html
-tags: ["social networks", "embeddings", "explainable machine learning"]
+tags: ["social networks", "embeddings", "DeepWalk", "explainable machine learning"]
 author: ["Malte Lüken", "Javier Garcia-Bernardo", "Sreeparna Deb", "Flavio Hafner", "Megha Khosla"]
 description: "We create network embeddings of the Dutch population, use them to predict voting behavior, and explore interpretability techniques for network embeddings."
 summary: "We create network embeddings of the Dutch population, use them to predict voting behavior, and explore interpretability techniques for network embeddings."
+editPost:
+    URL: null
+    Text: "R&R, Scientific Reports"
 # cover:
 #     image: "figure1a.png"
 #     alt: "Figure Figure from paper1a from paper"
 #     relative: false
-#editPost:
-#    URL: null
-#    Text: null
 
 ---
 
