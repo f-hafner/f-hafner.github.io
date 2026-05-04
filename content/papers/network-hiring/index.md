@@ -1,6 +1,6 @@
 ---
 title: "Networks in the market for researchers" 
-date: 2024-12-09
+date: 2026-04-14
 url: /network-hiring/
 # aliases: 
 #     - /old_url.html

@@ -10,7 +10,7 @@ description: "For nation-scale networks, we present a layer-sensitive random wal
 summary: "For nation-scale networks, we present a layer-sensitive random walk, temporal alignment and partitioning techniques and evaluate them on 13 downstream tasks."
 editPost:
     URL: null
-    Text: "Forthcoming, Complex Networks"
+    Text: "Complex Networks & Their Applications"
 # cover:
 #     image: "figure1a.png"
 #     alt: "Figure Figure from paper1a from paper"
@@ -23,6 +23,7 @@ editPost:
 ##### Download:
 
 - [Paper on arXiv](https://arxiv.org/abs/2603.29059)
+- [Paper on publisher's website](https://link.springer.com/chapter/10.1007/978-3-032-16719-4_27)
 
 ---
 

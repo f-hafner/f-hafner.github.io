@@ -1,6 +1,6 @@
 ---
 title: "The Equilibrium Effects of Workers’ Outside Employment Options: Evidence from a Labour Market Integration" 
-date: 2024-04-30
+date: 2026-02-24
 url: /paper/
 # aliases: 
 #     - /paper.html
@@ -14,7 +14,7 @@ summary: "We study a reform that eased cross-border commuting from France to the
 #     relative: false
 editPost:
     URL: null
-    Text: "R&R, Economic Journal"
+    Text: "Conditionally accepted, The Economic Journal"
 
 ---
 
