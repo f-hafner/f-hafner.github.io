@@ -37,7 +37,7 @@
       <link>{{ index . 0 | absURL }}</link>
     </image>
     {{- end }}
-    <generator>Hugo -- gohugo.io</generator>{{ with site.LanguageCode }}
+    <generator>Hugo -- gohugo.io</generator>{{ with site.Language.Locale }}
     <language>{{.}}</language>{{end}}{{ with $authorEmail}}
     <managingEditor>{{.}}{{ with site.Params.author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with $authorEmail }}
     <webMaster>{{.}}{{ with site.Params.author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with site.Copyright }}
