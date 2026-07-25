@@ -10,7 +10,7 @@ description: "We create network embeddings of the Dutch population, use them to 
 summary: "We create network embeddings of the Dutch population, use them to predict voting behavior, and explore interpretability techniques for network embeddings."
 editPost:
     URL: null
-    Text: "R&R, Scientific Reports"
+    Text: "Scientific Reports"
 # cover:
 #     image: "figure1a.png"
 #     alt: "Figure Figure from paper1a from paper"
