@@ -1,4 +1,4 @@
 ---
-title: "Papers"
-description: "Preprints and articles on this website."
+title: ""
+description: "Preprints and articles, generated from my ORCID record."
 ---
