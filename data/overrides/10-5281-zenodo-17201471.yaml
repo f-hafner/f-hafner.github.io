@@ -1,0 +1,8 @@
+summary: A python library for simulating a simplified day-ahead electricity market.
+abstract: A python library for simulating a simplified day-ahead electricity market. Agents consume and
+  supply electricity and submit bids; the central market computes the equilibrium and dispatches quantities.
+  Useful for investigating demand-side flexibility and the role of different tariff schemes.
+tags:
+- energy-markets
+- agent-based-modeling
+- demand-flexibility

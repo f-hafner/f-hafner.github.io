@@ -1,0 +1,19 @@
+# Papers without a DOI live here: same schema as the ORCID snapshot, but
+# hand-maintained -- python/sync_publications.py reads (and validates) this file,
+# never writes it. The card title links to the paper PDF; the appendix is a chip.
+title: "Networks in the market for researchers"
+kind: paper
+year: 2026
+date: 2026-04-14
+slug: network-hiring
+url: /network-hiring/
+title_url: /network-hiring/network-hiring.pdf
+venue: "The Economic Journal"
+comment: "Conditionally accepted"
+authors: ["Flavio Hafner", "Christoph Hedtrich"]
+summary: "We study the role of collaboration networks for placing PhD students in the U.S. We observe a sizable citation premium for graduates placed through the advisor's network. However, when comparing graduates hired at the same university, the productivity premium is fully explained by public information on the productivity at the time of graduation."
+tags: [social-networks, record-linkage]
+links:
+    - rel: appendix
+      label: appendix
+      url: /network-hiring/network-hiring-appendix.pdf

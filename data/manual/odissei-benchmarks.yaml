@@ -1,0 +1,11 @@
+# Software without a DOI lives here. The title links to the repository.
+title: "Benchmarking LLM finetuning and multi-node NCCL communication"
+kind: software
+year: 2025
+date: 2025-08-02
+slug: odissei-benchmarks
+url: /odissei-benchmarks/
+title_url: https://github.com/odissei-benchmarks/torchtune-gpu-benchmark
+authors: ["Flavio Hafner", "Mattie Niznik"]
+summary: "Benchmarks for finetuning LLMs on HPC systems and investigating performance bottlenecks."
+tags: [llm-finetuning, benchmarking, nccl, torchtune, high-performance-computing]

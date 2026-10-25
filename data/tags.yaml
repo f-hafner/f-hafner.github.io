@@ -1,0 +1,119 @@
+# Controlled vocabulary for the `tags` taxonomy.
+#
+# Key        = canonical slug (lowercase, hyphenated) == the Hugo taxonomy term,
+#              so /tags/<slug>/ URLs stay stable. Slugify(old spelling) reproduces
+#              it, which is why the legacy spellings below needed no mapping.
+# title      = what cards and tag pages display.
+# aliases    = spellings that do not slugify to the key; the sync script reports
+#              them and suggests the canonical form.
+#
+# Categories are only a reading aid -- Hugo ignores unknown keys here.
+
+# --- topics
+agent-based-modeling:
+  title: Agent-based modeling
+benchmarking:
+  title: Benchmarking
+bibliometric-data:
+  title: Bibliometric data
+commuting:
+  title: Commuting
+deepwalk:
+  title: DeepWalk
+demand-flexibility:
+  title: Demand flexibility
+differential-privacy:
+  title: Differential privacy
+embeddings:
+  title: Embeddings
+energy-markets:
+  title: Energy markets
+explainable-machine-learning:
+  title: Explainable machine learning
+high-performance-computing:
+  title: High-performance computing
+ip-rotation:
+  title: IP rotation
+large-language-models:
+  title: Large language models
+literature-review:
+  title: Literature review
+machine-learning:
+  title: Machine learning
+membership-inference-attacks:
+  title: Membership inference attacks
+outside-options:
+  title: Outside options
+prediction:
+  title: Prediction
+privacy:
+  title: Privacy
+record-linkage:
+  title: Record linkage
+register-data:
+  title: Register data
+registry-data:
+  title: Registry data
+representation-learning:
+  title: Representation learning
+secure-computing:
+  title: Secure computing
+social-data:
+  title: Social data
+social-networks:
+  title: Social networks
+synthetic-data:
+  title: Synthetic data
+transformer-architecture:
+  title: Transformer architecture
+
+# --- tools and languages
+dbplyr:
+  title: dbplyr
+llm-finetuning:
+  title: LLM finetuning
+nccl:
+  title: NCCL
+python:
+  title: Python
+r:
+  title: R
+r-shiny:
+  title: R Shiny
+sql:
+  title: SQL
+torchtune:
+  title: torchtune
+vpn:
+  title: VPN
+  aliases: ["virtual private network", "virtual-private-network"]
+
+# --- methods
+statistics:
+  title: Statistics
+
+# --- used by blog posts only (kept so the vocabulary matches the whole site)
+causal-inference:
+  title: Causal inference
+computer-security:
+  title: Computer security
+conference:
+  title: Conference
+continuous-integration:
+  title: Continuous integration
+data:
+  title: Data
+hacking:
+  title: Hacking
+open-source-software:
+  title: Open-source software
+policy-making:
+  title: Policy-making
+reproducibility:
+  title: Reproducibility
+software-development:
+  title: Software development
+unit-testing:
+  title: Unit testing
+tools:
+  title: Tools

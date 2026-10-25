@@ -1,0 +1,9 @@
+# `venue` is where it appears, `comment` is the free-text status -- same division
+# of labour as the manual records (The Economic Journal + Conditionally accepted).
+venue: "Scientific Reports"
+comment: "Forthcoming"
+tags:
+    - social-networks
+    - embeddings
+    - deepwalk
+    - explainable-machine-learning
