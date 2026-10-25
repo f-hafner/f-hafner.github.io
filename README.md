@@ -56,3 +56,7 @@ The website was built with Hugo v0.124.1 on an Apple Silicon Mac running macOS S
 ## License
 
 The content of this repository is licensed under the terms of the MIT License.
+
+## Credits
+
+- The publication layout is adapted from https://kotthoff.dev/posts/202411-hugoorcid/  under the CC-BY 4.0 license
