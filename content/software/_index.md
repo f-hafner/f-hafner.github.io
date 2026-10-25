@@ -1,4 +1,4 @@
 ---
-title: "Software"
-description: "Software I've contributed to."
+title: ""
+description: "Open-source software and code, generated from my ORCID record."
 ---
