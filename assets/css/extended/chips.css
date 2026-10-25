@@ -1,0 +1,58 @@
+/* Compact tag chips on generated (data-driven) publication cards.
+   PaperMod loads css/extended/*.css after the core styles, so these win over
+   the theme's full-size .post-tags pills without !important. */
+
+/* Breathing room: authors block -> DOI row -> tag row. */
+.post-entry .post-tags-tight {
+    margin-top: 6px;
+}
+
+.post-entry .post-tags-medium {
+    margin-top: 10px;
+}
+
+.post-entry .post-tags-tight li {
+    margin-inline-end: 4px;
+    margin-bottom: 2px;
+}
+
+.post-entry .post-tags-tight a {
+    display: inline-block;
+    font-size: 0.68rem;
+    line-height: 1.55;
+    padding: 0 5px;
+    color: var(--secondary);
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.post-entry .post-tags-tight a:hover {
+    color: var(--content);
+    background: var(--border);
+}
+
+/* Action links (DOI, preprint, repository) sit between the two extremes:
+   smaller than the theme's 14px/34px pills, clearly bigger than the tags. */
+.post-entry .post-tags-medium li {
+    margin-inline-end: 5px;
+    margin-bottom: 3px;
+}
+
+.post-entry .post-tags-medium a {
+    display: inline-block;
+    font-size: 0.8rem;
+    line-height: 1.9;
+    padding: 0 9px;
+    color: var(--secondary);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.post-entry .post-tags-medium a:hover {
+    color: var(--content);
+    background: var(--border);
+}
