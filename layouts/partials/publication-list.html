@@ -9,6 +9,8 @@
 {{- $tagFilter := .tag | default "" }}
 {{- $showHeader := true }}
 {{- if isset . "header" }}{{ $showHeader = .header }}{{ end }}
+{{- $showNote := false }}
+{{- if isset . "note" }}{{ $showNote = .note }}{{ end }}
 
 {{- $items := slice }}
 {{- $excluded := slice }}
@@ -156,7 +158,10 @@
 {{- end }}
 {{- end }}
 
+{{- /* Term pages call this partial once per section, so the note is opt-in. */}}
+{{- if $showNote }}
 <p class="post-meta">
   Based on my ORCID record, enriched with DataCite and Crossref metadata. Entries
   without a DOI are maintained by hand.
 </p>
+{{- end }}
