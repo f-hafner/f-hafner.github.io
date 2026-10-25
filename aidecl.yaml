@@ -11,7 +11,7 @@ ai_usage:
   summary: |
     AI was used to design and build the data workflow and integrate
     into Hugo.
-  level: moderate
+  level: significant
   tools:
   - name: Deepseek-v4.1-flash
     vendor: Opencode
