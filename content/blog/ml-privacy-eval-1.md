@@ -4,7 +4,7 @@ date: 2025-02-27
 url: /ml-privacy-eval-1/
 author: "Flavio Hafner"
 description: "An introduction to differential privacy applied to machine learning."
-tags: ["differential-privacy", "privacy", "machine learning", "statistics"]
+tags: ["differential-privacy", "privacy", "machine-learning", "statistics"]
 summary: "The first in a series of blog posts on machine learning and privacy."
 showToc: true
 disableAnchoredHeadings: false

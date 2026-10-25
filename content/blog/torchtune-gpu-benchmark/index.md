@@ -4,7 +4,7 @@ date: 2025-04-01
 url: /torchtune-gpu-benchmark/
 author: "Flavio Hafner (Netherlands eScience Center), Mattie Niznik (Princeton Research Computing), Malte Lüken (Netherlands eScience Center), Alessandra Maranca (Princeton University), Matthew Salganik (Princeton University)"
 description: "We compare the performance of LLM finetuning on different systems and explore reasons for performance differences."
-tags: ["benchmarking", "high performance computing", "large language models", "social data", "secure computing"]
+tags: ["benchmarking", "high-performance-computing", "large-language-models", "social-data", "secure-computing"]
 summary: "We have developed a benchmark that compares the compute performance of fine-tuning LLMs on multiple high-performance computing (HPC) systems, including systems designed for working with sensitive data. In this blog post, we introduce the benchmark, describe the lessons learned developing it and make it open-source so that it can be used and improved by others."
 showToc: true
 disableAnchoredHeadings: false
