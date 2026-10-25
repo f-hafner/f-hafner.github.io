@@ -1,0 +1,162 @@
+{{- /*
+  Renders one generated section from data/publications.yaml.
+  Context: dict "section" (papers|software) "kinds" (allowed kinds) "noun"
+  "tag" (optional term filter) "header" (optional, default true) "page" .
+*/ -}}
+{{- $section := .section }}
+{{- $kinds := .kinds }}
+{{- $noun := .noun }}
+{{- $tagFilter := .tag | default "" }}
+{{- $showHeader := true }}
+{{- if isset . "header" }}{{ $showHeader = .header }}{{ end }}
+
+{{- $items := slice }}
+{{- $excluded := slice }}
+{{- $fromOrcid := 0 }}
+{{- $fromManual := 0 }}
+
+{{- /* Two sources, one schema: the generated ORCID snapshot and hand-maintained
+       records in data/manual/. Manual defaults are merged *under* the record. */}}
+{{- $sources := slice hugo.Data.publications (hugo.Data.manual | default dict) }}
+{{- range $index, $source := $sources }}
+  {{- range $key, $record := $source }}
+    {{- if eq $index 1 }}
+      {{- $record = merge (dict "source" "manual" "kind" "paper") $record }}
+      {{- $record = merge $record (dict "section" (cond (in (slice "software" "data") $record.kind) "software" "papers")) }}
+    {{- end }}
+    {{- if and (eq $record.section $section) (not $record.hidden) (not $record.draft) }}
+      {{- if and (in $kinds $record.kind) (or (eq $tagFilter "") (in ($record.tags | default slice) $tagFilter)) }}
+        {{- $items = $items | append (merge $record (dict "key" $key)) }}
+        {{- if eq $index 1 }}{{ $fromManual = add $fromManual 1 }}{{ else }}{{ $fromOrcid = add $fromOrcid 1 }}{{ end }}
+      {{- else }}
+        {{- $excluded = $excluded | append $record.kind }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- $items = sort $items "year" "desc" }}
+
+{{/* Collapse duplicates: a record whose DOI is linked as a version/preprint of
+     another record is not listed on its own; the canonical card links to it. */}}
+{{- $referenced := dict }}
+{{- range $items }}
+  {{- $record := . }}
+  {{- range .links }}
+    {{- if in (slice "preprint" "version" "isversionof" "hasversion" "isderivedfrom" "continues") .rel }}
+      {{- $referenced = merge $referenced (dict (strings.TrimPrefix "https://doi.org/" .url | lower) $record.key) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- $visible := 0 }}
+{{- range $items }}{{ if not (isset $referenced (.doi | default "")) }}{{ $visible = add $visible 1 }}{{ end }}{{ end }}
+
+{{- if $showHeader }}
+<p class="post-meta">
+  {{ $visible }} {{ $noun }}: {{ sub $visible $fromManual }} from ORCID, {{ $fromManual }} manual{{ if gt (len $items) $visible }}
+  ({{ sub (len $items) $visible }} duplicate/version record collapsed){{ end }}
+  {{- with $excluded }} &middot; {{ len . }} {{ delimit (uniq .) "/" }} record{{ if gt (len .) 1 }}s{{ end }} not listed{{ end }}
+</p>
+{{- end }}
+
+{{- range $items }}
+{{- if not (isset $referenced (.doi | default "")) }}
+{{- $record := . }}
+{{- $doi := "" }}
+{{- range .links }}{{ if eq .rel "doi" }}{{ $doi = .url }}{{ end }}{{ end }}
+{{- $version := $record.version }}
+{{- /* One target per card: when the claimed DOI is not the newest published
+       version, link (and label) the newest one instead of showing both. */}}
+{{- with $record.latest_doi }}
+  {{- $doi = printf "https://doi.org/%s" . }}
+  {{- with $record.latest_version }}{{ $version = . }}{{ end }}
+{{- end }}
+{{- /* Manual records point the title at the PDF / repository instead of a DOI. */}}
+{{- $titleURL := $record.title_url | default $doi }}
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>
+      {{- with $titleURL }}<a href="{{ . }}"{{ if strings.HasPrefix . "http" }} target="_blank" rel="noopener"{{ end }}>{{ end }}
+      {{- .title }}
+      {{- with $titleURL }}</a>{{ end }}
+    </h2>
+  </header>
+
+  <div class="entry-content">
+    {{- with or .summary .abstract }}
+    <p>{{ . | truncate 260 }}</p>
+    {{- end }}
+  </div>
+
+  <footer class="entry-footer">
+    <span class="post-meta">
+      {{- /* Free-text, hand-written annotation from data/overrides/<key>.yaml:
+             e.g. comment: "forthcoming in The Economic Journal" */}}
+      {{- $meta := slice }}
+      {{- with .year }}{{ $meta = $meta | append (htmlEscape (string .)) }}{{ end }}
+      {{- with (or .venue .repository) }}{{ $meta = $meta | append (htmlEscape .) }}{{ end }}
+      {{- with .comment }}{{ $meta = $meta | append (htmlEscape (string .)) }}{{ end }}
+      {{- with $version }}{{ $meta = $meta | append (htmlEscape .) }}{{ end }}
+      {{- delimit $meta "&nbsp;&middot;&nbsp;" | safeHTML }}
+    </span>
+
+    {{- with .authors }}
+    <br><span class="post-meta">
+      {{- if gt (len .) 3 }}
+        {{ delimit (first 3 .) ",&thinsp;" | safeHTML }} et al. ({{ len . }} authors)
+      {{- else }}
+        {{ delimit . ",&thinsp;" | safeHTML }}
+      {{- end }}
+    </span>
+    {{- end }}
+
+    {{- /* Chips: DOI (newest version when known), then any non-DOI target such
+           as a code repository; ORCID landing pages and version chains are skipped. */}}
+    {{- $chips := slice }}
+    {{- with $doi }}
+      {{- $chips = $chips | append (dict "label" "DOI" "url" .) }}
+    {{- end }}
+    {{- range .links }}
+      {{- $url := .url }}
+      {{- $isDoi := strings.Contains $url "doi.org" }}
+      {{- if or (eq .rel "doi") (eq .rel "url") }}
+        {{- /* ORCID landing page: redundant once a DOI is linked */}}
+      {{- else if $isDoi }}
+        {{- if and (not $record.latest_doi) (strings.Contains $url "10.48550") }}
+          {{- $chips = $chips | append (dict "label" "preprint" "url" $url) }}
+        {{- else if and (not $record.latest_doi) (in (slice "isversionof" "version" "hasversion" "isderivedfrom") .rel) }}
+          {{- $chips = $chips | append (dict "label" "version" "url" $url) }}
+        {{- end }}
+      {{- else if not (strings.Contains $url "zenodo.org/doi/") }}
+        {{- $label := .label | default ((urls.Parse $url).Host | strings.TrimPrefix "www.") | default .rel }}
+        {{- $chips = $chips | append (dict "label" $label "url" $url) }}
+      {{- end }}
+    {{- end }}
+
+    {{- with $chips }}
+    <ul class="post-tags post-tags-medium">
+      {{- range . }}
+      <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+
+    {{- with .tags }}
+    <ul class="post-tags post-tags-tight">
+      {{- range . }}
+      {{- $title := . }}
+      {{- with index hugo.Data.tags . }}{{ $title = .title }}{{ end }}
+      <li><a href="{{ printf "/tags/%s/" . | relURL }}">{{ $title }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </footer>
+</article>
+{{- end }}
+{{- end }}
+
+<p class="post-meta">
+  Based on my ORCID record, enriched with DataCite and Crossref metadata. Entries
+  without a DOI are maintained by hand.
+</p>

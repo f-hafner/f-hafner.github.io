@@ -3,14 +3,44 @@
 <header class="page-header">
 </header>
 
+{{- $counts := dict }}
+{{- range .Data.Terms.Alphabetical }}
+  {{- $counts = merge $counts (dict .Name .Count) }}
+{{- end }}
+
+{{- /* Publication items are data, so their tags are not in site.Taxonomies.
+       content/tags/_content.gotmpl creates their term pages; add them here so the
+       index is complete. */}}
+{{- $dataTags := slice }}
+{{- range $key, $record := hugo.Data.publications }}
+  {{- range $record.tags }}{{ $dataTags = $dataTags | append . }}{{ end }}
+{{- end }}
+{{- range $key, $record := (hugo.Data.manual | default dict) }}
+  {{- range $record.tags }}{{ $dataTags = $dataTags | append . }}{{ end }}
+{{- end }}
+{{- $extra := slice }}
+{{- range uniq (sort $dataTags) }}
+  {{- if not (isset $counts .) }}{{ $extra = $extra | append . }}{{ end }}
+{{- end }}
+
 <ul class="terms-tags">
     {{- $type := .Type }}
-    {{- range $key, $value := .Data.Terms.Alphabetical }}
+    {{- range .Data.Terms.Alphabetical }}
     {{- $name := .Name }}
     {{- $count := .Count }}
     {{- with site.GetPage (printf "/%s/%s" $type $name) }}
     <li>
         <a href="{{ .Permalink }}">{{ .Name }} <sup><strong><sup>{{ $count }}</sup></strong></sup> </a>
+    </li>
+    {{- end }}
+    {{- end }}
+    {{- range $extra }}
+    {{- $term := . }}
+    {{- $title := . }}
+    {{- with index hugo.Data.tags . }}{{ $title = .title }}{{ end }}
+    {{- with site.GetPage (printf "/%s/%s" $type $term) }}
+    <li>
+        <a href="{{ .Permalink }}">{{ $title }}</a>
     </li>
     {{- end }}
     {{- end }}
