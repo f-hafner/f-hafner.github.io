@@ -3,8 +3,8 @@ title: "Empirically evaluating privacy in machine learning III: functional & gau
 date: 2025-06-10
 url: /ml-privacy-eval-3/
 author: "Flavio Hafner"
-description: "This blog posts introduces functional differential privacy and explains its benefits."
-tags: ["differential-privacy", "privacy", "machine learning", "statistics"]
+description: "This blog post introduces functional differential privacy and explains its benefits."
+tags: ["differential-privacy", "privacy", "machine-learning", "statistics"]
 summary: "The third in a series of blog posts on machine learning and privacy: why functional differential privacy is useful for auditing privacy in machine learning."
 showToc: true
 disableAnchoredHeadings: false

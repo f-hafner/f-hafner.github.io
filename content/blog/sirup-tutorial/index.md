@@ -4,7 +4,7 @@ date: 2024-02-27
 url: /sirup-tutorial/
 author: "Flavio Hafner"
 description: "A tutorial on the sirup package to manage the IP address in python"
-tags: ["ip-rotation", "virtual private network"]
+tags: ["ip-rotation", "vpn"]
 summary: "A tutorial on the sirup package to manage the IP address in python"
 showToc: true 
 disableAnchoredHeadings: false

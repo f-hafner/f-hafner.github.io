@@ -1,0 +1,6 @@
+summary: For nation-scale networks, we present a layer-sensitive random walk, temporal alignment and partitioning
+  techniques and evaluate them on 13 downstream tasks.
+tags:
+- social-networks
+- embeddings
+- deepwalk

@@ -1,0 +1,8 @@
+summary: A wrapper around the openvpn CLI to connect to VPN servers and rotate the IP address in python
+  programs.
+abstract: A wrapper around the openvpn CLI to connect to VPN servers, and rotate the IP address from within
+  python programs. Used for scraping and repeated API calls.
+tags:
+- ip-rotation
+- vpn
+- python

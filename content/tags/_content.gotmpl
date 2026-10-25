@@ -1,0 +1,22 @@
+{{- /*
+  Term pages for tags that exist only on publication *data*, not on pages.
+
+  Hugo builds taxonomy terms from pages' front matter, and the publication items
+  live in data/publications.yaml (+ data/manual/). Without this adapter those tags
+  would have no /tags/<slug>/ page and every tag chip would be a dead link.
+
+  Tags that real pages carry (blog posts) are created by Hugo itself; adding them
+  here again is harmless -- the term page merges both sources.
+*/ -}}
+{{- $used := slice }}
+{{- range $key, $record := hugo.Data.publications }}
+  {{- range $record.tags }}{{ $used = $used | append . }}{{ end }}
+{{- end }}
+{{- range $key, $record := (hugo.Data.manual | default dict) }}
+  {{- range $record.tags }}{{ $used = $used | append . }}{{ end }}
+{{- end }}
+{{- range uniq (sort $used) }}
+  {{- $title := . }}
+  {{- with index hugo.Data.tags . }}{{ $title = .title }}{{ end }}
+  {{- $.AddPage (dict "kind" "term" "path" . "title" $title) }}
+{{- end }}

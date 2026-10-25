@@ -1,0 +1,15 @@
+# Papers without a DOI live here: same schema as the ORCID snapshot, but
+# hand-maintained -- python/sync_publications.py reads (and validates) this file,
+# never writes it. The card title links to the PDF at its existing URL.
+title: "The Equilibrium Effects of Workers’ Outside Employment Options: Evidence from a Labour Market Integration"
+kind: paper
+year: 2026
+date: 2026-02-24
+slug: equilibrium-outside
+url: /equilibrium-outside/
+title_url: /equilibrium-outside/equilibrium-outside.pdf
+venue: "The Economic Journal"
+comment: "Conditionally accepted"
+authors: ["Flavio Hafner", "Christoph Hedtrich"]
+summary: "We study a reform that eased cross-border commuting from France to the high-wage Swiss labor market. The results show that if labour supply is elastic enough, the local labour market can expand and absorb additional competition for workers."
+tags: [outside-options, commuting]

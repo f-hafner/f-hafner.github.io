@@ -4,7 +4,7 @@ date: 2025-06-08
 url: /ml-privacy-eval-2/
 author: "Flavio Hafner"
 description: "This blog posts explains how differential privacy can be interpreted with statistical hypothesis testing."
-tags: ["differential-privacy", "privacy", "machine learning", "statistics"]
+tags: ["differential-privacy", "privacy", "machine-learning", "statistics"]
 summary: "The second in a series of blog posts on machine learning and privacy: Using statistics to think like a hacker, so we can avoid them!"
 showToc: true
 disableAnchoredHeadings: false

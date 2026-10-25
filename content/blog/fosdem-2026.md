@@ -4,7 +4,7 @@ date: 2026-02-04
 url: /fosdem-2026/
 author: "Flavio Hafner"
 description: "My summary of FOSDEM 2026"
-tags: ["conference", "open-source-software", "machine learning", "tools"]
+tags: ["conference", "open-source-software", "machine-learning", "tools"]
 summary: "Highlights and notes from FOSDEM 2026."
 showToc: true
 disableAnchoredHeadings: false
